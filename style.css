@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.menu-container{
+    background-color: rgb(47, 45, 45);
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+.logo-photo{
+    width: 70px;
+    /* height: 70px; */
+    /* justify-content: center; */
+    /* align-items: left; */
+    border-radius: 20%;
+    
+}
+.menus{
+    display: flex;
+    
+}
+.item{
+    margin-right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.item:hover{
+    color: blue;
+}
